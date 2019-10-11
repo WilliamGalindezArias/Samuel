@@ -1,0 +1,53 @@
+intents:
+  - greet
+  - goodbye
+  - inform_name
+  - inform_age
+  - mood_happy
+  - mood_unhappy
+  - chitchat
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_acknowledge_name
+- utter_acknowledge_age
+- utter_ch_1
+
+
+templates:
+  utter_greet:
+  - text: "Hola, como estas?"
+  - text: "Hola, todo bien?"
+  - text: "Hola, soy un Super sayayin"
+
+  utter_cheer_up:
+  - text: "Tal vez esto te suba el animo:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "fue de ayuda? te gusta la imagen?"
+
+  utter_happy:
+  - text: "Que bueno!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_acknowledge_name:
+  - text: "un gusto hablarte {name}, como estas hoy?"
+  - text: "hola {name}, como estas el dia de hoy?"
+
+  utter_acknowledge_age:
+  - text: "tienes {age}, ya eres un niño grande"
+
+  utter_ch_1:
+  - text: "soy sayayin, pero olvide mi nombre, como te gustaria llamarme?"
+  - text: "tengo ganas de dormir un poco, pero primero tengo que leer un poco mis libros favoritos"
+  - text: "estoy pensando en que tan chevre va ser el Play Station 5"
+  - text: "estoy pensando en estudiar un poco el dia de hoy"
+  - text: "me gustan los gatos"
+
